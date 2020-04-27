@@ -1,0 +1,84 @@
+.logo--footer {
+    width: 200px;
+    height: 60px;
+    fill: #fff;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.picture {
+    &__google-play {
+        border: 1px solid grey;
+        border-radius: 10px;
+        height: 80px;
+        width: 200px;
+        background: url(../images/sprite.png);
+        background-position: 50% 5%;
+    }
+
+    &__appstore {
+        border: 1px solid grey;
+        border-radius: 10px;
+        height: 80px;
+        width: 200px;
+        background: url(../images/sprite.png);
+        background-position: 50% 0%;
+    }
+}
+
+
+
+.footer {
+    background: rgb(34, 31, 31);
+
+    &__select {
+        width: 400px;
+        height: 60px;
+        padding: 10px 10px 10px 20px;
+        font-size: 16px;
+        color: grey;
+        background-color: rgb(34, 31, 31);
+        border: 1px solid grey;
+    }
+
+    &__pictures {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 420px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+
+.block-small {
+    margin-top: 80px;
+    font-size: 28px;
+
+    
+
+    &__title {
+        color: grey;
+        margin-bottom: 30px;
+    }
+
+    &__element {
+        margin-bottom: 30px;
+    }
+
+    &__a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+
+}
+
+.small {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
